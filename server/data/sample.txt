@@ -1,0 +1,241 @@
+AcmeSoft Pvt. Ltd.
+INTERNAL DOCUMENT – STRICTLY CONFIDENTIAL
+DevOps & QA Deployment Log – Q1 2025
+Maintained by: DevOps Engineering Team
+Document Version: 1.2
+Last Updated: March 31, 2025
+
+Product Information
+Product: AcmeCRM – Cloud CRM for Mid-Size Enterprises
+Environments: Development / Staging / Production
+Engineering Manager: Priya Shah
+Location: Bengaluru HQ
+
+January 8, 2025
+Module: User Authentication
+Issue: Login delay of 5–8 seconds reported by QA.
+Investigation: Multiple Redis lookups during token validation phase.
+Fix: Optimized auth.middleware.ts and consolidated redundant DB queries.
+Resolution: Fixed in build v2025.1.1
+Tested By: QA Team - Arjun R., Neha M.
+Status: Deployed to staging and production.
+
+January 18, 2025
+Module: Document Upload Service
+Issue: PDF preview fails for files >15MB.
+Fix: Added streaming parser (pdfjs-dist) and increased file size limit to 25MB.
+New Feature: Added server-side compression for image-heavy PDFs.
+Code Reference: upload.service.ts, PR #1129
+Status: Deployed in build v2025.1.2
+Next Review: Monitor server memory on AWS Lambda.
+
+CONFIDENTIAL – INTERNAL USE ONLY
+Property of AcmeSoft Pvt. Ltd.
+Unauthorized use or distribution is strictly prohibited.
+For internal teams only. Contact: devops@acmesoft-internal.dev
+
+WASIF ULLAH - Professional Profile
+Last Updated: March 2024
+
+EDUCATION
+University: University of Engineering and Technology (UET)
+Degree: Bachelor's in Computer Science
+Graduation Year: 2023
+GPA: 3.7/4.0
+Relevant Coursework:
+- Advanced Data Structures and Algorithms
+- Machine Learning and Artificial Intelligence
+- Database Management Systems
+- Software Engineering
+- Computer Networks
+- Operating Systems
+- Web Development
+- Cloud Computing
+
+Academic Achievements:
+- Dean's List for Academic Excellence (2021-2023)
+- Best Final Year Project Award
+- Participated in multiple hackathons
+- Led the Computer Science Student Society
+- Organized tech workshops and seminars
+
+PROFESSIONAL EXPERIENCE
+Role: MERN Stack Developer
+Experience: 1 year
+Company: TechInnovate Solutions
+Duration: March 2023 - Present
+
+Key Responsibilities:
+- Develop and maintain full-stack web applications
+- Implement responsive and user-friendly interfaces
+- Design and optimize database schemas
+- Collaborate with cross-functional teams
+- Conduct code reviews and mentor junior developers
+- Implement CI/CD pipelines
+- Write technical documentation
+
+Technical Skills:
+Frontend Development:
+- React.js (Advanced)
+- Redux for state management
+- Material-UI and Tailwind CSS
+- TypeScript
+- Next.js
+- WebSocket implementation
+- Progressive Web Apps (PWA)
+
+Backend Development:
+- Node.js and Express.js
+- RESTful API design
+- GraphQL
+- Microservices architecture
+- JWT authentication
+- WebSocket servers
+- API documentation (Swagger)
+
+Database:
+- MongoDB (Advanced)
+- Mongoose ODM
+- Redis for caching
+- Database optimization
+- Data modeling
+- Backup and recovery
+
+DevOps & Tools:
+- Git and GitHub
+- Docker containerization
+- AWS (EC2, S3, Lambda)
+- CI/CD with Jenkins
+- Nginx server configuration
+- Linux server management
+- Monitoring tools (Prometheus, Grafana)
+
+MACHINE LEARNING EXPERTISE
+Skills and Tools:
+- Python programming
+- TensorFlow and PyTorch
+- Scikit-learn
+- OpenCV
+- Natural Language Processing
+- Computer Vision
+- Deep Learning
+- Data Analysis with Pandas and NumPy
+
+Projects and Achievements:
+1. Image Classification System
+   - Implemented CNN architecture
+   - Achieved 85% accuracy on test data
+   - Optimized model for real-time inference
+   - Deployed on cloud infrastructure
+
+2. Natural Language Processing
+   - Developed text classification models
+   - Implemented sentiment analysis
+   - Created chatbot using transformer models
+   - Integrated with web applications
+
+3. Data Analysis Projects
+   - Market trend analysis
+   - Customer behavior prediction
+   - Anomaly detection systems
+   - Time series forecasting
+
+PROJECTS
+1. E-commerce Platform (MERN Stack)
+   Features:
+   - User authentication and authorization
+   - Product catalog with search and filters
+   - Shopping cart and wishlist
+   - Payment gateway integration (Stripe)
+   - Order management system
+   - Admin dashboard
+   - Real-time inventory updates
+   - Customer reviews and ratings
+   - Responsive design for all devices
+   Technologies: React, Node.js, MongoDB, Redux, Socket.io
+
+2. ML-based Image Classification
+   Components:
+   - Custom CNN architecture
+   - Data preprocessing pipeline
+   - Model training and validation
+   - API for real-time predictions
+   - Web interface for testing
+   - Performance monitoring
+   Technologies: Python, TensorFlow, Flask, React
+
+3. Real-time Chat Application
+   Features:
+   - Real-time messaging
+   - File sharing
+   - Group chats
+   - Message encryption
+   - Online status tracking
+   - Message history
+   - User presence system
+   Technologies: Socket.io, React, Node.js, MongoDB
+
+4. Task Management System
+   Features:
+   - Project management
+   - Task assignment
+   - Progress tracking
+   - Team collaboration
+   - File attachments
+   - Notifications
+   Technologies: React, Node.js, MongoDB, WebSocket
+
+CERTIFICATIONS
+- AWS Certified Developer Associate
+- MongoDB Certified Developer
+- TensorFlow Developer Certificate
+- React Advanced Concepts
+- Node.js Best Practices
+
+CAREER GOALS
+Short-term (1-2 years):
+- Master advanced full-stack development
+- Lead development teams
+- Contribute to open-source projects
+- Build scalable applications
+
+Long-term (3-5 years):
+- Become a Technical Architect
+- Start a tech-focused business
+- Mentor aspiring developers
+- Contribute to AI research
+
+PERSONAL INTERESTS
+Technical:
+- Exploring new technologies
+- Contributing to open-source
+- Reading tech blogs and books
+- Participating in coding challenges
+
+Personal:
+- Travel and photography
+- Learning new languages
+- Playing chess
+- Fitness and sports
+
+FUTURE ASPIRATIONS
+Professional:
+- Master advanced ML concepts
+- Work on cutting-edge AI projects
+- Contribute to global tech solutions
+- Mentor aspiring developers
+
+Personal:
+- Travel to 30 countries
+- Learn 3 new programming languages
+- Write a technical blog
+- Start a tech community
+
+CONTACT INFORMATION
+Email: [Your Email]
+LinkedIn: [Your LinkedIn]
+GitHub: [Your GitHub]
+Portfolio: [Your Portfolio]
+Twitter: [Your Twitter]
+
+Note: This profile is regularly updated with new skills, experiences, and achievements. Last updated: March 2024 
