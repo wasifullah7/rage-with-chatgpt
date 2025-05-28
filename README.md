@@ -21,7 +21,7 @@ A web application that combines ChatGPT with Retrieval-Augmented Generation (RAG
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/rag-chatgpt.git
+git clone https://github.com/wasifullah7/rage-with-chatgpt.git
 cd rag-chatgpt
 ```
 
